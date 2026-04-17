@@ -4,7 +4,6 @@ let userInput = process.argv.slice(2)
         translateArray()
         
     }else{
-        trunStringintoArray()
         userInput = userInput[0].split(" ")
         translateArray()
     }
@@ -21,10 +20,6 @@ function translateArray(){
             }
         }})
     console.log(translatedUserInput.join(' '))
-}
-
-function trunStringintoArray(){
-   
 }
 
 //not needed:
